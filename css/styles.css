@@ -1,0 +1,410 @@
+@charset "UTF-8";
+
+@import url('http://fonts.googleapis.com/css?family=Barlow:300,500');
+@import url('http://fonts.googleapis.com/css?family=Barlow Condensed:300,500');
+
+html, body {
+	height: 100%;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+
+body {
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+	line-height: 1.5em;
+	color: #333;
+	-webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+     hyphens: auto;
+}
+
+p { margin: 0.8em 0 0.8em 0;}
+
+	
+
+#container{
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	min-height: 100%; 
+	width: 90%;
+	max-width: 1400px;
+	text-align: left;
+    position: relative;
+}
+
+
+#logo {
+	margin-top:50px;
+	margin-left:143px;
+	float: left;
+	height: 75px;	
+}
+
+#logo a:link {color:#000; text-decoration: none}
+#logo a:visited {color:#000; text-decoration: none}
+#logo a:hover {color: #C03; text-decoration: none}
+
+
+
+#sprache{ float:right; font-size:0.8em; margin-top:50px; height: 75px;}
+
+#sprache a:link {color:#777; text-decoration: none}
+#sprache a:visited {color:#777; text-decoration: none}
+#sprache a:hover {color: #C03; text-decoration: none}
+
+
+
+
+#navi{ float:left; color: #C03; 
+font-family: Barlow;
+	font-weight:300;
+    text-size-adjust:none;
+	font-size:18px;
+	line-height: 26px;	
+	-webkit-text-size-adjust:none;
+    -ms-text-size-adjust:none;
+    -moz-text-size-adjust:none;}
+
+#navilist {margin-left:143px;}
+
+.navilist-button{ float: none;}
+
+
+#navi a:link {color:#777; text-decoration: none}
+#navi a:visited {color:#777; text-decoration: none}
+#navi a:hover {color: #000; text-decoration: none}
+
+#subnavi{ width:210px; margin-top:25px;}
+
+#subnavi a:link { opacity: 0.7;}
+#subnavi a:visited { opacity: 0.7;}
+#subnavi a:hover { opacity: 1;}
+
+
+#vita{ display: block; font-size:13px; line-height:19px; margin-bottom: 3px; width: 85px;}
+	
+.preview{ width:64px; height:64px; float:left; margin:3px;}
+.preview-space { float:left; width:0px;}	
+	
+.vitatext1 { color:#777; line-height:26px;}
+.vitatext2 { color:#333; line-height:26px;}
+
+
+#content{
+	float: left;
+	margin-left: 237px;
+	position: absolute;
+	width: -webkit-calc(100% - 237px);
+	width: -moz-calc(100% - 237px);
+	width: calc(100% - 237px);
+	}
+
+#headerbild-aktuell{ background-image:url(../img/katharina-rivilis-300.jpg); background-size: cover; background-position:center 46%; height:125px; max-width: 600px; width: 80%; margin-bottom:30px;}
+	
+#headerbild-vita{ background-image:url(../img/kr-head100-1200.jpg); background-size: cover; background-position:center 66%; height:125px; max-width: 600px; width: 80%; margin-bottom:30px;}
+
+#headerbild-kino-tv{ background-image:url(../img/kr-head23-1200.jpg); background-size: cover; background-position:center 41%; height:125px; max-width: 600px; width: 80%; margin-bottom:30px;}
+
+#headerbild-theater{ background-image:url(../img/kr-head101-1200.jpg); transform: scaleX(-1); background-size: cover; background-position:center 36%; height:125px; max-width: 600px; width: 80%; margin-bottom:30px;}
+
+#headerbild-links{ background-image:url(../img/kr-head30-1200.jpg); background-size: cover; background-position:center 25%; height:125px; max-width: 600px; width: 80%; margin-bottom:30px;}
+
+#headerbild-kontakt{ background-image:url(../img/kr-head37-1200.jpg); background-size: cover; background-position:center 40%; height:125px; max-width: 600px; width: 80%; margin-bottom:30px;}
+
+
+	
+
+.links {float:left; text-align:center; width:35%; max-width:200px; margin-bottom:30px;}
+.links img { max-width: 150px;}
+
+.kontakt{float:left; margin-top:25px; width: 200px;}
+
+
+#pictures {}
+
+#foto-startseite{float: left;
+     background-image: url(../img/katharina-rivilis-40A.jpg);
+     background-repeat:no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    background-size: contain;
+	margin-left: 237px;
+	position: absolute;
+	width: -webkit-calc(100% - 237px);
+	width: -moz-calc(100% - 237px);
+	width: calc(100% - 237px);
+	height: -webkit-calc(100% - 170px);	
+	height: -moz-calc(100% - 170px); 
+	height: calc(100% - 170px);}
+
+
+#foto01 {float: left;
+     background-image: url(../img/pictures/katharina-rivilis-106c.jpg);
+     background-repeat:no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    background-size: contain;
+	margin-left: 237px;
+	position: absolute;
+	width: -webkit-calc(100% - 237px);
+	width: -moz-calc(100% - 237px);
+	width: calc(100% - 237px);
+	visibility: hidden; 
+	height: -webkit-calc(100% - 170px);	
+	height: -moz-calc(100% - 170px); 
+	height: calc(100% - 170px);}
+	
+#foto02 {float: left;
+     background-image: url(../img/pictures/katharina-rivilis-102.jpg);
+     background-repeat:no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    background-size: contain;
+	margin-left: 237px;
+	position: absolute;
+	width: -webkit-calc(100% - 237px);
+	width: -moz-calc(100% - 237px);
+	width: calc(100% - 237px);
+	visibility: hidden; 
+	height: -webkit-calc(100% - 170px);	
+	height: -moz-calc(100% - 170px); 
+	height: calc(100% - 170px);}	
+
+#foto03 {float: left;
+     background-image: url(../img/pictures/katharina-rivilis-100.jpg);
+     background-repeat:no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    background-size: contain;
+	margin-left: 237px;
+	position: absolute;
+	width: -webkit-calc(100% - 237px);
+	width: -moz-calc(100% - 237px);
+	width: calc(100% - 237px);
+	visibility: hidden; 
+	height: -webkit-calc(100% - 170px);	
+	height: -moz-calc(100% - 170px); 
+	height: calc(100% - 170px);}
+	
+#foto04 {float: left;
+     background-image: url(../img/pictures/katharina-rivilis-420.jpg);
+     background-repeat:no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    background-size: contain;
+	margin-left: 237px;
+	position: absolute;
+	width: -webkit-calc(100% - 237px);
+	width: -moz-calc(100% - 237px);
+	width: calc(100% - 237px);
+	visibility: hidden; 
+	height: -webkit-calc(100% - 170px);	
+	height: -moz-calc(100% - 170px); 
+	height: calc(100% - 170px);}	
+
+#foto05 {float: left;
+     background-image: url(../img/pictures/katharina-rivilis-105.jpg);
+     background-repeat:no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    background-size: contain;
+	margin-left: 237px;
+	position: absolute;
+	width: -webkit-calc(100% - 237px);
+	width: -moz-calc(100% - 237px);
+	width: calc(100% - 237px);
+	visibility: hidden; 
+	height: -webkit-calc(100% - 170px);	
+	height: -moz-calc(100% - 170px); 
+	height: calc(100% - 170px);}
+	
+#foto06 {float: left;
+     background-image: url(../img/pictures/katharina-rivilis-301.jpg);
+     background-repeat:no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    background-size: contain;
+	margin-left: 237px;
+	position: absolute;
+	width: -webkit-calc(100% - 237px);
+	width: -moz-calc(100% - 237px);
+	width: calc(100% - 237px);
+	visibility: hidden; 
+	height: -webkit-calc(100% - 170px);	
+	height: -moz-calc(100% - 170px); 
+	height: calc(100% - 170px);}
+
+#foto07 {float: left;
+     background-image: url(../img/pictures/katharina-rivilis-101.jpg);
+     background-repeat:no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    background-size: contain;
+	margin-left: 237px;
+	position: absolute;
+	width: -webkit-calc(100% - 237px);
+	width: -moz-calc(100% - 237px);
+	width: calc(100% - 237px);
+	visibility: hidden; 
+	height: -webkit-calc(100% - 170px);	
+	height: -moz-calc(100% - 170px); 
+	height: calc(100% - 170px);}
+
+#foto08 {float: left;
+     background-image: url(../img/pictures/katharina-rivilis-104.jpg);
+     background-repeat:no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    background-size: contain;
+	margin-left: 237px;
+	position: absolute;
+	width: -webkit-calc(100% - 237px);
+	width: -moz-calc(100% - 237px);
+	width: calc(100% - 237px);
+	visibility: hidden; 
+	height: -webkit-calc(100% - 170px);	
+	height: -moz-calc(100% - 170px); 
+	height: calc(100% - 170px);}
+	
+#foto09 {float: left;
+     background-image: url(../img/pictures/katharina-rivilis-200.jpg);
+     background-repeat:no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    background-size: contain;
+	margin-left: 237px;
+	position: absolute;
+	width: -webkit-calc(100% - 237px);
+	width: -moz-calc(100% - 237px);
+	width: calc(100% - 237px);
+	visibility: hidden; 
+	height: -webkit-calc(100% - 170px);	
+	height: -moz-calc(100% - 170px); 
+	height: calc(100% - 170px);}
+	
+#foto10 {float: left;
+     background-image: url(../img/pictures/katharina-rivilis-110.jpg);
+     background-repeat:no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    background-size: contain;
+	margin-left: 237px;
+	position: absolute;
+	width: -webkit-calc(100% - 237px);
+	width: -moz-calc(100% - 237px);
+	width: calc(100% - 237px);
+	visibility: hidden; 
+	height: -webkit-calc(100% - 170px);	
+	height: -moz-calc(100% - 170px); 
+	height: calc(100% - 170px);}	
+
+#foto11 {float: left;
+     background-image: url(../img/pictures/katharina-rivilis-302.jpg);
+     background-repeat:no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    background-size: contain;
+	margin-left: 237px;
+	position: absolute;
+	width: -webkit-calc(100% - 237px);
+	width: -moz-calc(100% - 237px);
+	width: calc(100% - 237px);
+	visibility: hidden; 
+	height: -webkit-calc(100% - 170px);	
+	height: -moz-calc(100% - 170px); 
+	height: calc(100% - 170px);}
+	
+#foto12 {float: left;
+     background-image: url(../img/pictures/katharina-rivilis-300.jpg);
+     background-repeat:no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    background-size: contain;
+	margin-left: 237px;
+	position: absolute;
+	width: -webkit-calc(100% - 237px);
+	width: -moz-calc(100% - 237px);
+	width: calc(100% - 237px);
+	visibility: hidden; 
+	height: -webkit-calc(100% - 170px);	
+	height: -moz-calc(100% - 170px); 
+	height: calc(100% - 170px);}
+
+	
+#footer {
+	padding-top: 50px;
+	padding-bottom: 10px;
+	font-size: 0.9em;
+	line-height: 1.7em;
+	width: 100%;
+	text-align: center;
+}
+
+
+
+.clearfloat {
+	clear: both;
+}
+	
+
+a:link {color:#666; text-decoration: underline}
+a:visited {color:#666; text-decoration: underline}
+a:hover {color: #333; text-decoration: underline}
+
+
+
+
+
+	
+img {
+	border: 0;
+	width: 100%;
+    
+}
+
+ul {
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 17px;
+}
+
+h1 {text-transform: uppercase;
+font-family: Barlow;
+font-weight:300;
+    font-size:22px;
+	padding: 0;
+	margin: 0;
+}
+
+h2 {
+	font-family: Barlow;
+	font-weight:300;
+    text-size-adjust:none;
+	font-size:18px;
+	line-height: 26px;	
+	-webkit-text-size-adjust:none;
+    -ms-text-size-adjust:none;
+    -moz-text-size-adjust:none; 
+	margin-bottom:20px;
+	margin-top: 0.3em;
+	margin-right: 0;
+	margin-left: 0;
+}
+
+h3 {
+	font-size: 1em;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 5px;
+	margin-left: 0px;
+	}	
+	
